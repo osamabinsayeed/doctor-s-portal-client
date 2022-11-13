@@ -8,11 +8,11 @@ const Navbar = () => {
       <li><Link to='/Review'>Reviews</Link></li>
       <li><Link to='/Contact'>Contact </Link></li>
       <li><Link to='/About'>About </Link></li>
-      <li><Link to='/logIn'>Log In</Link></li>
+      <li><Link to='/login'>Log In</Link></li>
   
   </> 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100" data-theme="doctortheme">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
