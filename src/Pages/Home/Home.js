@@ -1,16 +1,13 @@
 import React from 'react';
 import Banner from './Banner';
-
+import Info from './Information/Info';
+import Services from './Information/Services';
 const Home = () => {
     return (
-        <div>
+        <div className='px-12'>
             <Banner></Banner>
-            <div className='h-1/2'>
-                <h1>
-                    hello world
-                </h1>
-
-            </div>
+            <Info></Info>
+            <Services></Services>
         </div>
     );
 };
