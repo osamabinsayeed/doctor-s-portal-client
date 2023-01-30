@@ -7,19 +7,22 @@ const ContacUs = () => {
         <section style={{
             background: `url(${appointment})`
         }}
-            className="flex justify-center">
+            className="flex flex-col ">
 
-            <div className='form-control w-96 justify-center mb-28'>
-
-
-
-
-                <input type="text" placeholder="email" className="input input-bordered input-md max-w mb-10 mt-28" />
-                <input type="text" placeholder="subject" className="input input-bordered input-md max-w mb-10" />
-
-                <textarea className="textarea mb-10 h-28" placeholder="Your message"></textarea>
-                <PrimaryButton>Submit</PrimaryButton>
+            <div className='text-center mt-10'>
+                <h3 className='text-primary text-xl font-bold uppercase'>Contact Us</h3>
+                <h2 className='text-4xl text-white'>Stay Connected With Us</h2>
             </div>
+            <div className='flex justify-center'>
+                <div className='form-control w-96  mb-10 '>
+                    <input type="text" placeholder="email" className="input input-bordered input-md max-w mb-5 mt-10" />
+                    <input type="text" placeholder="subject" className="input input-bordered input-md max-w mb-5" />
+                    <input type='text' placeholder='Your message' className='input input-bordered input-md max-w h-32 mb-10' ></input>
+                    <PrimaryButton>Submit</PrimaryButton>
+
+                </div>
+            </div>
+
         </section>
     );
 };
